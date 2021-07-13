@@ -1,4 +1,4 @@
-### cara menjalankan NonLinLoc
+### cara menjalankan NonLinLoc pada mode non-GLOBAL
 open terminal pada direktori file, kemudian run script berikut
 ```
 ./run_boss.sh
