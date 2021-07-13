@@ -60,7 +60,7 @@ ttime_func_test program demonstrating reading values from 2D or 3D grid file thr
 	See ttime_func/run_func.sh for more detail.
 
 
-IMPORTANT NOTE: Covariance errors (2014.10.30)
+IMPORTANT NOTE: 1 Covariance errors (2014.10.30)
 ------------------------------------------------------
 	Applies to: LOCSEARCH MET and LOCSEARCH OCT
 	The algorithm for calculating the covariance of the PDF scatter sample used in NLLoc
@@ -81,4 +81,13 @@ IMPORTANT NOTE: Covariance errors (2014.10.30)
 	The algorithm for calculating the covariance of the PDF scatter sample used in NLLoc v.6.03.00 and later does not
 	have these precision errors and is valid for locations far from the origin of the coordinate system.
 
+## Important Note
 
+NonLinloc sukses dijalankan pada sisitem operasi Linux'
+Unutk Windows user dapat menggunakan [Cygwin](https://cygwin.com/install.html), kemudian isntall package berikut pada Cygwin :
+- make
+- GCC
+- gfortran
+- dll
+
+NOTE : code pada NonLinLoc ini bisa saja tidak berjalan dengan semestinya apabila menggunakan Cygwin, sehingga perlu di-edit secara manual.
