@@ -86,6 +86,7 @@ IMPORTANT NOTE: 1 Covariance errors (2014.10.30)
 NonLinloc sukses dijalankan pada sistem operasi Linux'
 Untuk Windows user dapat menggunakan [Cygwin](https://cygwin.com/install.html), kemudian install packages berikut pada Cygwin :
 - make
+- Cmake
 - GCC
 - gfortran
 - dll
