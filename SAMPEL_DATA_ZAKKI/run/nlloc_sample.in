@@ -338,7 +338,7 @@ EQMODE SRCE_TO_STA
 #    latDir (choice: N S) geographic direction
 #    longDir (choice: W E) geographic direction
 #
-EQSRCE  PKMSynth  XYZ    0.820744528 -1.293911957 0.101779691 0.0
+EQSRCE  EGSSynth  XYZ    0.820744528 -1.293911957 0.101779691 0.0
 
 # EQSTA - Station List
 # required, repeatable
@@ -442,7 +442,7 @@ LOCSIG Arham Zakki Edelo - edelo.17034@mhs.its.ac.id
 #
 #    comment (line) comment text
 #
-LOCCOM PKM 
+LOCCOM EGS Collab Project Test
 
 # LOCFILES - Input and Output File Root Name
 # required, non-repeatable
@@ -455,7 +455,7 @@ LOCCOM PKM
 #    outputFileRoot (string) full or relative path and file root name (no extension) for output files
 #    iSwapBytes (integer, min:0, max:1, default:0) flag to indicate if hi and low bytes of input time grid files should be swapped. Allows reading of travel-time grids from different computer architecture platforms during TRANS GLOBAL mode location.
 #
-LOCFILES ./obs/event.obs NLLOC_OBS  ./Time/layer  ./loc/PKM
+LOCFILES ./obs/event.obs NLLOC_OBS  ./Time/layer  ./loc/EGS
 
 # LOCHYPOUT - Output File Types
 # optional, non-repeatable
