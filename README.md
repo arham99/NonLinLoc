@@ -81,7 +81,7 @@ IMPORTANT NOTE: 1 Covariance errors (2014.10.30)
 	The algorithm for calculating the covariance of the PDF scatter sample used in NLLoc v.6.03.00 and later does not
 	have these precision errors and is valid for locations far from the origin of the coordinate system.
 
-## Important Note
+# IMPORTANT NOTE 2 : bagi non linux user
 
 NonLinloc sukses dijalankan pada sisitem operasi Linux'
 Unutk Windows user dapat menggunakan [Cygwin](https://cygwin.com/install.html), kemudian isntall package berikut pada Cygwin :
